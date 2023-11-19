@@ -1,0 +1,208 @@
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+                    >>> Start Time: 2023-10-25 22:32:29 <<<
+
+====================================================================================
+Step 1: C432 Pattern Identification:
+====================================================================================
+
+Divide & Conquer Pattern Generation:
+
+000000000: golden: 0x00 | trojan: 0x00 <- (MISS)
+fffffffff: golden: 0x07 | trojan: 0x07 <- (MISS)
+00003ffff: golden: 0x00 | trojan: 0x00 <- (MISS)
+ffffc0000: golden: 0x37 | trojan: 0x37 <- (MISS)
+007fc01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+ff803fe00: golden: 0x57 | trojan: 0x57 <- (MISS)
+0f0f0f0f0: golden: 0x79 | trojan: 0x79 <- (MISS)
+f0f0f0f0f: golden: 0x7D | trojan: 0x7D <- (MISS)
+333333333: golden: 0x6D | trojan: 0x6D <- (MISS)
+ccccccccc: golden: 0x6F | trojan: 0x6F <- (MISS)
+
+Divide & Conquer Pattern Generation Successful!
+
+====================================================================================
+Step 2: C432 Individual Trigger Bit Identification:
+====================================================================================
+
+807fc01ff: golden: 0x20 | trojan: 0x00 <- (HIT)
+407fc01ff: golden: 0x2F | trojan: 0x0F <- (HIT)
+207fc01ff: golden: 0x2E | trojan: 0x0E <- (HIT)
+107fc01ff: golden: 0x2D | trojan: 0x0D <- (HIT)
+087fc01ff: golden: 0x2C | trojan: 0x0C <- (HIT)
+047fc01ff: golden: 0x2B | trojan: 0x0B <- (HIT)
+027fc01ff: golden: 0x2A | trojan: 0x0A <- (HIT)
+017fc01ff: golden: 0x29 | trojan: 0x09 <- (HIT)
+00ffc01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+003fc01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+005fc01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+006fc01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+0077c01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007bc01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007dc01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007ec01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007f401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f801ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fe01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fd01ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc81ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc41ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc21ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc11ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc09ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc05ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc03ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc00ff: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc017f: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc01bf: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc01df: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc01f7: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc01fb: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc01fd: golden: 0x00 | trojan: 0x20 <- (HIT)
+007fc01fe: golden: 0x00 | trojan: 0x20 <- (HIT)
+
+Initial Trigger Sequence Found!
+
+====================================================================================
+Step 3: C432 Trigger Analysis & Checker:
+====================================================================================
+
+Bit checking bit 27:
+--------------------------------------------------
+00ffc01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+80ffc01ff: golden: 0x20 | trojan: 0x20 <- (MISS)
+40ffc01ff: golden: 0x2F | trojan: 0x2F <- (MISS)
+20ffc01ff: golden: 0x2E | trojan: 0x2E <- (MISS)
+10ffc01ff: golden: 0x2D | trojan: 0x2D <- (MISS)
+08ffc01ff: golden: 0x2C | trojan: 0x2C <- (MISS)
+04ffc01ff: golden: 0x2B | trojan: 0x2B <- (MISS)
+02ffc01ff: golden: 0x2A | trojan: 0x2A <- (MISS)
+01ffc01ff: golden: 0x29 | trojan: 0x29 <- (MISS)
+00bfc01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00dfc01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00efc01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00f7c01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00fbc01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00fdc01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00fec01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ff801ff: golden: 0x68 | trojan: 0x68 <- (MISS)
+00ffe01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffd01ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc81ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc41ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc21ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc11ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc09ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc05ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc03ff: golden: 0x08 | trojan: 0x08 <- (MISS)
+00ffc00ff: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc017f: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc01bf: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc01df: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc01f7: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc01fb: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc01fd: golden: 0x28 | trojan: 0x28 <- (MISS)
+00ffc01fe: golden: 0x38 | trojan: 0x38 <- (MISS)
+--------------------------------------------------
+
+Bit checking bit 19:
+--------------------------------------------------
+007f401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+807f401ff: golden: 0x20 | trojan: 0x20 <- (MISS)
+407f401ff: golden: 0x2F | trojan: 0x2F <- (MISS)
+207f401ff: golden: 0x2E | trojan: 0x2E <- (MISS)
+107f401ff: golden: 0x2D | trojan: 0x2D <- (MISS)
+087f401ff: golden: 0x2C | trojan: 0x2C <- (MISS)
+047f401ff: golden: 0x2B | trojan: 0x2B <- (MISS)
+027f401ff: golden: 0x2A | trojan: 0x2A <- (MISS)
+017f401ff: golden: 0x69 | trojan: 0x69 <- (MISS)
+003f401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+005f401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+006f401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+0077401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007b401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007d401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007e401ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f001ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f601ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f501ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f481ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f441ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f421ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f411ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f409ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f405ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f403ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f400ff: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f4017f: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f401bf: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f401df: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f401f7: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f401fb: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f401fd: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f401fe: golden: 0x00 | trojan: 0x00 <- (MISS)
+--------------------------------------------------
+
+Bit checking bit 4:
+--------------------------------------------------
+007fc01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+807fc01ef: golden: 0x20 | trojan: 0x20 <- (MISS)
+407fc01ef: golden: 0x2F | trojan: 0x2F <- (MISS)
+207fc01ef: golden: 0x2E | trojan: 0x2E <- (MISS)
+107fc01ef: golden: 0x2D | trojan: 0x2D <- (MISS)
+087fc01ef: golden: 0x3C | trojan: 0x3C <- (MISS)
+047fc01ef: golden: 0x2B | trojan: 0x2B <- (MISS)
+027fc01ef: golden: 0x2A | trojan: 0x2A <- (MISS)
+017fc01ef: golden: 0x29 | trojan: 0x29 <- (MISS)
+003fc01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+005fc01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+006fc01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+0077c01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007bc01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007dc01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007ec01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007f801ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fe01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fd01ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc81ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc41ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc21ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc11ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc09ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc05ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc03ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc00ef: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc016f: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc01af: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc01cf: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc01e7: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc01eb: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc01ed: golden: 0x00 | trojan: 0x00 <- (MISS)
+007fc01ee: golden: 0x00 | trojan: 0x00 <- (MISS)
+--------------------------------------------------
+
+                    >>> Elapsed Time: 2023-10-25 22:34:13 <<<
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+====================================================================================
+                                  Trojan Detection
+====================================================================================
+
+Specified bitstream: C432
+
+Detected trojan trigger: XXXXXXXX0XXXXXXX1XXXXXXXXXXXXXX1XXXX
+
+Trigger bits and their associated value:
+	in[27] = 0
+	in[19] = 1
+	in[4] = 1
+
+====================================================================================
+                                  Payload Analysis
+====================================================================================
+
+Specified bitstream: C432
+
+Payload Analysis:
+	Logical Trojan!

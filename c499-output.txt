@@ -1,0 +1,197 @@
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+                    >>> Start Time: 2023-10-31 23:20:18 <<<
+
+====================================================================================
+Step 1: C499 Pattern Identification:
+====================================================================================
+
+Inputs that caused hits:
+	00160f1f6ca7, 00549c309a2d, 0007057bdb63
+	00341e647de5, 01373d22dba1, 00268d37fa6a
+	006614193ceb, 0057b60b9ca8, 004d173d7b62
+	0164976a3d68, 003c162d0c68
+
+====================================================================================
+Step 2: C499 Individual Trigger Bit Identification:
+====================================================================================
+
+------- Hit inputs have matching values @ bit 39 -------
+
+Analyzing Bit 39 further:
+
+	00960f1f6ca7: golden: 0x0F1F6CA7 | trojan: 0x0F1F6CA7 <- (MISS)
+	00d49c309a2d: golden: 0x9C309A2D | trojan: 0x9C309A2D <- (MISS)
+	0087057bdb63: golden: 0x057BDB63 | trojan: 0x057BDB63 <- (MISS)
+	00b41e647de5: golden: 0x1E647DE5 | trojan: 0x1E647DE5 <- (MISS)
+	01b73d22dba1: golden: 0x3D22DBA1 | trojan: 0x3D22DBA1 <- (MISS)
+	00a68d37fa6a: golden: 0x8D37FA6A | trojan: 0x8D37FA6A <- (MISS)
+	00e614193ceb: golden: 0x14193CEB | trojan: 0x14193CEB <- (MISS)
+	00d7b60b9ca8: golden: 0xB60B9CA8 | trojan: 0xB60B9CA8 <- (MISS)
+	00cd173d7b62: golden: 0x173D7B62 | trojan: 0x173D7B62 <- (MISS)
+	01e4976a3d68: golden: 0x976A3D68 | trojan: 0x976A3D68 <- (MISS)
+	00bc162d0c68: golden: 0x162D0C68 | trojan: 0x162D0C68 <- (MISS)
+
+>>> Bit 39 apart of trigger! <<<
+
+------- Hit inputs have matching values @ bit 34 -------
+
+Analyzing Bit 34 further:
+
+	00120f1f6ca7: golden: 0x0F1F6CA7 | trojan: 0x0F1F6CA7 <- (MISS)
+	00509c309a2d: golden: 0x9C309A2D | trojan: 0x9C309A2D <- (MISS)
+	0003057bdb63: golden: 0x057BDB63 | trojan: 0x057BDB63 <- (MISS)
+	00301e647de5: golden: 0x1E647DE5 | trojan: 0x1E647DE5 <- (MISS)
+	01333d22dba1: golden: 0x3D22DBA1 | trojan: 0x3D22DBA1 <- (MISS)
+	00228d37fa6a: golden: 0x8D37FA6A | trojan: 0x8D37FA6A <- (MISS)
+	006214193ceb: golden: 0x14193CEB | trojan: 0x14193CEB <- (MISS)
+	0053b60b9ca8: golden: 0xB60B9CA8 | trojan: 0xB60B9CA8 <- (MISS)
+	0049173d7b62: golden: 0x173D7B62 | trojan: 0x173D7B62 <- (MISS)
+	0160976a3d68: golden: 0x976A3D68 | trojan: 0x976A3D68 <- (MISS)
+	0038162d0c68: golden: 0x162D0C68 | trojan: 0x162D0C68 <- (MISS)
+
+>>> Bit 34 apart of trigger! <<<
+
+------- Hit inputs have matching values @ bit 30 -------
+
+Analyzing Bit 30 further:
+
+	00164f1f6ca7: golden: 0x4F1F6CA7 | trojan: 0x4F1F6CA7 <- (MISS)
+	0054dc309a2d: golden: 0xDC309A2D | trojan: 0xDC309A2D <- (MISS)
+	0007457bdb63: golden: 0x457ADB63 | trojan: 0x457ADB63 <- (MISS)
+	00345e647de5: golden: 0x5E647DE5 | trojan: 0x5E647DE5 <- (MISS)
+	01377d22dba1: golden: 0x7D22DBA1 | trojan: 0x7D22DBA1 <- (MISS)
+	0026cd37fa6a: golden: 0xCD37FA6A | trojan: 0xCD37FA6A <- (MISS)
+	006654193ceb: golden: 0x54193CEB | trojan: 0x54193CEB <- (MISS)
+	0057f60b9ca8: golden: 0xF60B9CA8 | trojan: 0xF60B9CA8 <- (MISS)
+	004d573d7b62: golden: 0x573D7B62 | trojan: 0x573D7B62 <- (MISS)
+	0164d76a3d68: golden: 0xD76A3D68 | trojan: 0xD76A3D68 <- (MISS)
+	003c562d0c68: golden: 0x562D0C68 | trojan: 0x562D0C68 <- (MISS)
+
+>>> Bit 30 apart of trigger! <<<
+
+------- Hit inputs have matching values @ bit 26 -------
+
+Analyzing Bit 26 further:
+
+	00160b1f6ca7: golden: 0x0B1F6CA7 | trojan: 0x0B1F6CA7 <- (MISS)
+	005498309a2d: golden: 0x98309A2D | trojan: 0x98309A2D <- (MISS)
+	0007017bdb63: golden: 0x016BDB63 | trojan: 0x016BDB63 <- (MISS)
+	00341a647de5: golden: 0x1A647DE5 | trojan: 0x1A647DE5 <- (MISS)
+	01373922dba1: golden: 0x3922DBA1 | trojan: 0x3922DBA1 <- (MISS)
+	00268937fa6a: golden: 0x8937FA6A | trojan: 0x8937FA6A <- (MISS)
+	006610193ceb: golden: 0x10193CEB | trojan: 0x10193CEB <- (MISS)
+	0057b20b9ca8: golden: 0xB20B9CA8 | trojan: 0xB20B9CA8 <- (MISS)
+	004d133d7b62: golden: 0x133D7B62 | trojan: 0x133D7B62 <- (MISS)
+	0164936a3d68: golden: 0x936A3D68 | trojan: 0x936A3D68 <- (MISS)
+	003c122d0c68: golden: 0x122D0C48 | trojan: 0x122D0C48 <- (MISS)
+
+>>> Bit 26 apart of trigger! <<<
+
+------- Hit inputs have matching values @ bit 23 -------
+
+Analyzing Bit 23 further:
+
+	00160f9f6ca7: golden: 0x0F9F6CA7 | trojan: 0x0F9F6CA7 <- (MISS)
+	00549cb09a2d: golden: 0x9CB29A2D | trojan: 0x9CB29A2D <- (MISS)
+	000705fbdb63: golden: 0x05FBDB63 | trojan: 0x05FBDB63 <- (MISS)
+	00341ee47de5: golden: 0x1EE47DE5 | trojan: 0x1EE47DE5 <- (MISS)
+	01373da2dba1: golden: 0x3DA2DBA1 | trojan: 0x3DA2DBA1 <- (MISS)
+	00268db7fa6a: golden: 0x8DB7FA6A | trojan: 0x8DB7FA6A <- (MISS)
+	006614993ceb: golden: 0x14993CEB | trojan: 0x14993CEB <- (MISS)
+	0057b68b9ca8: golden: 0xB68B9CA8 | trojan: 0xB68B9CA8 <- (MISS)
+	004d17bd7b62: golden: 0x17BD7BE2 | trojan: 0x17BD7BE2 <- (MISS)
+	016497ea3d68: golden: 0x97EA3D68 | trojan: 0x97EA3D68 <- (MISS)
+	003c16ad0c68: golden: 0x16AD0C68 | trojan: 0x16AD0C68 <- (MISS)
+
+>>> Bit 23 apart of trigger! <<<
+
+------- Hit inputs have matching values @ bit 11 -------
+
+Analyzing Bit 11 further:
+
+	00160f1f64a7: golden: 0x0D1F64A7 | trojan: 0x0D1F64A7 <- (MISS)
+	00549c30922d: golden: 0x9C30922D | trojan: 0x9C30922D <- (MISS)
+	0007057bd363: golden: 0x057BD363 | trojan: 0x057BD363 <- (MISS)
+	00341e6475e5: golden: 0x1E6475E5 | trojan: 0x1E6475E5 <- (MISS)
+	01373d22d3a1: golden: 0x3D22D3A1 | trojan: 0x3D22D3A1 <- (MISS)
+	00268d37f26a: golden: 0x8D37F26A | trojan: 0x8D37F26A <- (MISS)
+	0066141934eb: golden: 0x141934EB | trojan: 0x141934EB <- (MISS)
+	0057b60b94a8: golden: 0xB60B94A8 | trojan: 0xB60B94A8 <- (MISS)
+	004d173d7362: golden: 0x173D7362 | trojan: 0x173D7362 <- (MISS)
+	0164976a3568: golden: 0x876A3568 | trojan: 0x876A3568 <- (MISS)
+	003c162d0468: golden: 0x162D0468 | trojan: 0x162D0468 <- (MISS)
+
+>>> Bit 11 apart of trigger! <<<
+
+------- Hit inputs have matching values @ bit 5 -------
+
+Analyzing Bit 5 further:
+
+	00160f1f6c87: golden: 0x0F1F6C87 | trojan: 0x0F1F6C87 <- (MISS)
+	00549c309a0d: golden: 0x9C309A0D | trojan: 0x9C309A0D <- (MISS)
+	0007057bdb43: golden: 0x057BDB43 | trojan: 0x057BDB43 <- (MISS)
+	00341e647dc5: golden: 0x0E647DC5 | trojan: 0x0E647DC5 <- (MISS)
+	01373d22db81: golden: 0x3D22DB81 | trojan: 0x3D22DB81 <- (MISS)
+	00268d37fa4a: golden: 0x8D37FA4A | trojan: 0x8D37FA4A <- (MISS)
+	006614193ccb: golden: 0x14193CCB | trojan: 0x14193CCB <- (MISS)
+	0057b60b9c88: golden: 0xB60B9C88 | trojan: 0xB60B9C88 <- (MISS)
+	004d173d7b42: golden: 0x173D7B42 | trojan: 0x173D7B42 <- (MISS)
+	0164976a3d48: golden: 0x976A3D48 | trojan: 0x976A3D48 <- (MISS)
+	003c162d0c48: golden: 0x122D0C48 | trojan: 0x122D0C48 <- (MISS)
+
+>>> Bit 5 apart of trigger! <<<
+
+------- Hit inputs have matching values @ bit 4 -------
+
+Analyzing Bit 4 further:
+
+	00160f1f6cb7: golden: 0x0F1F6CB7 | trojan: 0x0F1F6CB7 <- (MISS)
+	00549c309a3d: golden: 0x9C309A3D | trojan: 0x9C309A3D <- (MISS)
+	0007057bdb73: golden: 0x057BDB73 | trojan: 0x057BDB73 <- (MISS)
+	00341e647df5: golden: 0x1E747DF5 | trojan: 0x1E747DF5 <- (MISS)
+	01373d22dbb1: golden: 0x3D22DBB1 | trojan: 0x3D22DBB1 <- (MISS)
+	00268d37fa7a: golden: 0x8D37FA7A | trojan: 0x8D37FA7A <- (MISS)
+	006614193cfb: golden: 0x14193CFB | trojan: 0x14193CFB <- (MISS)
+	0057b60b9cb8: golden: 0xB60B9CB8 | trojan: 0xB60B9CB8 <- (MISS)
+	004d173d7b72: golden: 0x173D7B72 | trojan: 0x173D7B72 <- (MISS)
+	0164976a3d78: golden: 0x976A3D78 | trojan: 0x976A3D78 <- (MISS)
+	003c162d0c78: golden: 0x16290C78 | trojan: 0x16290C78 <- (MISS)
+
+>>> Bit 4 apart of trigger! <<<
+
+                    >>> Elapsed Time: 2023-10-31 23:24:22 <<<
+||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
+
+====================================================================================
+                                  Trojan Detection
+====================================================================================
+
+Specified bitstream: C499
+
+Detected trojan trigger: X0XXXX1XXX0XXX1XX0XXXXXXXXXXX1XXXXX10XXXX
+
+Trigger bits and their associated value:
+	in[39] = 0
+	in[34] = 1
+	in[30] = 0
+	in[26] = 1
+	in[23] = 0
+	in[11] = 1
+	in[5] = 1
+	in[4] = 0
+
+====================================================================================
+                                  Payload Analysis
+====================================================================================
+
+Specified bitstream: C499
+
+Trojan Description:
+	The detected trojan on the circuit is a combinational trojan.
+	The outputs of the trojan are directly altered by the triggered
+	inputs and soely based on the trigger inputs.
+
+Payload Analysis:
+	Ex: Golden output: 0x0F1F6CA7 | Trojan output: 0x0F1FECA7
+	The triggered trojan affects the following: out[15]
