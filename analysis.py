@@ -8,7 +8,7 @@ File Description:
     the functionality of the given FPGA.
 
 Author:
-    Quentin Ramos II & Robbie Riviere
+    Quentin Ramos II
 ========================================================================================
 """
 

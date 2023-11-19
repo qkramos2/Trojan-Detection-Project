@@ -11,7 +11,7 @@ File Description:
     TODO: BEFORE RUNNING CHECK EACH TODO STATEMENT IN EACH FILE
 
 Author:
-    Quentin Ramos II & Robbie Riviere
+    Quentin Ramos II
 ========================================================================================
 """
 
